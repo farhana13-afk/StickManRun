@@ -89,11 +89,11 @@ function setup(){
     witch.visible = false;
  
     continueb = createButton("Continue")
-    continueb.position(width/2,height/2 - 100);
+    continueb.position(width/2,height/2 + 150);
     continueb.mousePressed(changeStateTo1);
 
     restartb = createButton("Restart")
-    restartb.position(width/2,height/2 - 100);
+    restartb.position(width/2,height/2 + 150);
     restartb.mousePressed(changeStateTo2);
 
     score = 0;
