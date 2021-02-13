@@ -1,16 +1,12 @@
-// Things to do
-// 1. Make a moving backgroud Image
-// 4. Make the boy version
-
-var INFORMATION = 0; //finshed
-var HALLWAY = 1;  //finished
-var FRIEND = 2;  //finsihed 
-var FOE = 3;   //finshed
-var WINFRIEND = 4; //finsihed
-var FAILFRIEND = 5;  //finished
-var WINFOE = 6; //finished
-var FAILFOE = 7; //finsihed
-var END = 8; //finished
+var INFORMATION = 0; 
+var HALLWAY = 1; 
+var FRIEND = 2; 
+var FOE = 3;
+var WINFRIEND = 4; 
+var FAILFRIEND = 5; 
+var WINFOE = 6; 
+var FAILFOE = 7; 
+var END = 8; 
 var HALLWAY1 = 9;
 var FRIEND1 = 10;
 var FOE1 = 11;
@@ -531,7 +527,7 @@ function spawnPotion() {
       potion = createSprite(width,50, 50,50);
       potion.y = Math.round(random(30,height/2));
 
-      potion.velocityX = -(24 + 3*score/10);
+      potion.velocityX = -(20 + 3*score/10);
       potion.addImage(potionImg);
       potion.scale = 0.2;
       potion.lifetime = 600;
