@@ -1,9 +1,9 @@
 var INFORMATION = 0; 
-var HALLWAY = 1; 
+var HALLWAY = 1;  
 var FRIEND = 2; 
-var FOE = 3;
+var FOE = 3;   
 var WINFRIEND = 4; 
-var FAILFRIEND = 5; 
+var FAILFRIEND = 5;  
 var WINFOE = 6; 
 var FAILFOE = 7; 
 var END = 8; 
@@ -89,11 +89,11 @@ function setup(){
     witch.visible = false;
  
     continueb = createButton("Continue")
-    continueb.position(width/2,height/2 + 150);
+    continueb.position(width/2,height/2 +200);
     continueb.mousePressed(changeStateTo1);
 
     restartb = createButton("Restart")
-    restartb.position(width/2,height/2 + 150);
+    restartb.position(width/2,height/2 + 200);
     restartb.mousePressed(changeStateTo2);
 
     score = 0;
